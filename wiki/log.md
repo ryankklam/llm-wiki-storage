@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-05-13] ingest | 小白也可以——从零开始搭建AI量化选股系统
+
+- **来源**：http://xhslink.com/o/4ufCceJbI9s
+- **新增页面**：2026-05-13-小白也可以-搭建AI量化选股系统, OpenClue, Agent集群, 量化选股, 二阶效应推断
+- **更新页面**：index, overview
+- **影响范围**：7 个页面
+
+---
+
 ## [2026-05-11] ingest | 关于杨永兴的一夜炒股法
 
 - **来源**：http://xhslink.com/o/8SfM2l4tR5
