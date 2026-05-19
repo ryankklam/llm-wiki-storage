@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-05-19] ingest | AI产品经理入门：PRD八步拆解法 🎵抖音
+
+- **来源**：https://v.douyin.com/F00ohYLQyJk/
+- **平台**：抖音
+- **新增页面**：2026-05-19-AI产品经理入门-PRD八步拆解法, AI产品经理, AI PRD
+- **更新页面**：index
+- **影响范围**：4 个页面
+
+---
+
 ## [2026-05-13] ingest | 小白也可以——从零开始搭建AI量化选股系统
 
 - **来源**：http://xhslink.com/o/4ufCceJbI9s
