@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-05-25] ingest | Anthropic内部Prompt写法
+
+- **来源**：http://xhslink.com/o/419zuSb3IEc
+- **新增页面**：2026-05-25-Anthropic内部Prompt写法, Anthropic Prompt技巧, XML Tags, Evaluations, Chain of Thought, 生成-评估-修复循环
+- **更新页面**：Prompt, Prompt工程, index, overview, log
+- **影响范围**：11 个页面
+
 ## [2026-05-25] ingest | Pi Agent比Codex更适合普通人的AI工具
 
 - **来源**：http://xhslink.com/o/5BLHHcmgiRU
