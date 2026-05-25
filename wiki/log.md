@@ -1,41 +1,11 @@
 # Wiki Log
 
-## [2026-05-19] ingest | AI产品经理入门：PRD八步拆解法 🎵抖音
+## [2026-05-25] ingest | Pi Agent比Codex更适合普通人的AI工具
 
-- **来源**：https://v.douyin.com/F00ohYLQyJk/
-- **平台**：抖音
-- **新增页面**：2026-05-19-AI产品经理入门-PRD八步拆解法, AI产品经理, AI PRD
-- **更新页面**：index
-- **影响范围**：4 个页面
-
----
-
-## [2026-05-13] ingest | 小白也可以——从零开始搭建AI量化选股系统
-
-- **来源**：http://xhslink.com/o/4ufCceJbI9s
-- **新增页面**：2026-05-13-小白也可以-搭建AI量化选股系统, OpenClue, Agent集群, 量化选股, 二阶效应推断
-- **更新页面**：index, overview
+- **来源**：http://xhslink.com/o/5BLHHcmgiRU
+- **新增页面**：2026-05-25-Pi Agent比Codex更适合普通人的AI工具, Pi Agent, Coding Agent vs 日常任务Agent
+- **更新页面**：Skill, index, overview, log
 - **影响范围**：7 个页面
-
----
-
-## [2026-05-11] ingest | 关于杨永兴的一夜炒股法
-
-- **来源**：http://xhslink.com/o/8SfM2l4tR5
-- **新增页面**：2026-05-11-关于杨永兴的一夜炒股法, 杨永兴, 隔夜套利法, 尾盘交易, T+1规则, 量比, 换手率
-- **更新页面**：index, overview
-- **影响范围**：9 个页面
-
----
-
-## [2026-05-11] ingest | 万物都可蒸馏Skill？5min讲清机制！
-
-- **来源**：http://xhslink.com/o/7Ct7SQr660m
-- **新增页面**：2026-05-11-万物都可蒸馏Skill-5min讲清机制, Prompt, Context工程, Prompt工程, 渐进式上下文披露, 兜底能力
-- **更新页面**：Skill, index, overview
-- **影响范围**：9 个页面
-
----
 
 ## [2026-05-10] ingest | skill实战: 从0到1写一个你自己的skill
 
