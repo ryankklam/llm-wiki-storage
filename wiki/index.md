@@ -7,27 +7,33 @@
 - **2026-05-10** [skill实战: 从0到1写一个你自己的skill]([[2026-05-10-skill实战- 从0到1写一个你自己的skill]])
 - **2026-05-25** [Anthropic内部Prompt写法]([[2026-05-25-Anthropic内部Prompt写法]])
 - **2026-05-25** [Pi Agent比Codex更适合普通人的AI工具]([[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]])
+- **2026-05-26** [抄作业Claude负责人演示]([[2026-05-26-抄作业Claude负责人演示]])
 
 
 ## 实体
 <!-- 人物、组织、产品等 -->
+- [[Claude]] - Anthropic 开发的大语言模型系列
 
 ## 概念
 - [[Anthropic Prompt技巧]] - Anthropic官方Prompt编写最佳实践
 - [[Chain of Thought]] - 思维链推理技术
+- [[Claude Code]] - Coding Agent代表产品
+- [[Coding Agent vs 日常任务Agent]] - Agent的两大分类
+- [[Cursor]] - AI 代码编辑器
 - [[Evaluations]] - Prompt性能评估方法
-- [[XML Tags]] - Prompt结构化标记
-- [[生成-评估-修复循环]] - Agent架构模式
+- [[GitHub]] - 代码托管平台
+- [[MCP]] - Model Context Protocol 缩写
+- [[Model Context Protocol]] - 模型上下文协议
 - [[Pi Agent]] - 极简底座的日常任务Agent
-- [[Skill]] - Agent的能力扩展单元
 - [[Prompt]] - 大模型的单次指令输入
 - [[Prompt工程]] - 大模型1.0时代的核心技术
-- [[Coding Agent vs 日常任务Agent]] - Agent的两大分类
-- [[Claude Code]] - Coding Agent代表产品
+- [[Skill]] - Agent的能力扩展单元
 - [[Skill Creator]] - Skill创建工具
 - [[Skill Store]] - Skill商店
+- [[Tool Use]] - AI 工具调用能力
+- [[XML Tags]] - Prompt结构化标记
 - [[按需加载]] - Skill的安装策略
-- [[GitHub]] - 代码托管平台
+- [[生成-评估-修复循环]] - Agent架构模式
 
 ## 主题
 <!-- 综合分析、比较等 -->

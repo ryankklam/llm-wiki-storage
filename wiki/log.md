@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-05-26] ingest | 抄作业Claude负责人演示
+
+- **来源**：http://xhslink.com/o/5cS2uUjm6wL
+- **新增页面**：2026-05-26-抄作业Claude负责人演示, MCP, Model Context Protocol, Cursor
+- **更新页面**：Claude Code, Claude, index, overview, log
+- **影响范围**：9 个页面
+
 ## [2026-05-25] ingest | Anthropic内部Prompt写法
 
 - **来源**：http://xhslink.com/o/419zuSb3IEc
