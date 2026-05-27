@@ -4,10 +4,11 @@
 - [[overview]] - 整体综述
 
 ## 来源
-- **2026-05-10** [skill实战: 从0到1写一个你自己的skill]([[2026-05-10-skill实战- 从0到1写一个你自己的skill]])
+- **2026-05-27** [你的公司容易被杀si吗]([[2026-05-27-你的公司容易被杀si吗]])
+- **2026-05-26** [抄作业Claude负责人演示]([[2026-05-26-抄作业Claude负责人演示]])
 - **2026-05-25** [Anthropic内部Prompt写法]([[2026-05-25-Anthropic内部Prompt写法]])
 - **2026-05-25** [Pi Agent比Codex更适合普通人的AI工具]([[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]])
-- **2026-05-26** [抄作业Claude负责人演示]([[2026-05-26-抄作业Claude负责人演示]])
+- **2026-05-10** [skill实战: 从0到1写一个你自己的skill]([[2026-05-10-skill实战- 从0到1写一个你自己的skill]])
 
 
 ## 实体
@@ -15,6 +16,8 @@
 - [[Claude]] - Anthropic 开发的大语言模型系列
 
 ## 概念
+- [[AI公司]] - AI创业公司面临的挑战与存活策略
+- [[Anthropic]] - 专注于AI安全的模型公司
 - [[Anthropic Prompt技巧]] - Anthropic官方Prompt编写最佳实践
 - [[Chain of Thought]] - 思维链推理技术
 - [[Claude Code]] - Coding Agent代表产品

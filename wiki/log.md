@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-05-27] ingest | 你的公司容易被杀si吗
+
+- **来源**：https://v.douyin.com/mGsdubAyO7o/
+- **新增页面**：2026-05-27-你的公司容易被杀si吗, Anthropic, AI公司
+- **更新页面**：index, overview, log
+- **影响范围**：6 个页面
+
 ## [2026-05-26] ingest | 抄作业Claude负责人演示
 
 - **来源**：http://xhslink.com/o/5cS2uUjm6wL
