@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-05-28] ingest | Agent长期记忆如何选？阿里云选型指南
+
+- **来源**：http://xhslink.com/o/6BFPo03oLrt
+- **新增页面**：2026-05-28-Agent长期记忆如何选, Agent长期记忆, 向量数据库, RAG, 知识图谱, Mem0, 阿里云长期记忆方案
+- **更新页面**：index, overview, log
+- **影响范围**：10 个页面
+
 ## [2026-05-27] ingest | 你的公司容易被杀si吗
 
 - **来源**：https://v.douyin.com/mGsdubAyO7o/
