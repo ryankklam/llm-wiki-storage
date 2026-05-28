@@ -1,32 +1,11 @@
 # Wiki Log
 
-## [2026-05-28] ingest | Agent长期记忆如何选？阿里云选型指南
+## [2026-05-28] ingest | 如何在有限上下文窗口内放入关键内容
 
-- **来源**：http://xhslink.com/o/6BFPo03oLrt
-- **新增页面**：2026-05-28-Agent长期记忆如何选, Agent长期记忆, 向量数据库, RAG, 知识图谱, Mem0, 阿里云长期记忆方案
+- **来源**：http://xhslink.com/o/5uhTgRym6S7
+- **新增页面**：2026-05-28-如何在有限上下文窗口内放入关键内容, Context Window优化, 短期记忆管理, 长期记忆管理, Sliding Window, 摘要压缩, 脏记忆防护
 - **更新页面**：index, overview, log
 - **影响范围**：10 个页面
-
-## [2026-05-27] ingest | 你的公司容易被杀si吗
-
-- **来源**：https://v.douyin.com/mGsdubAyO7o/
-- **新增页面**：2026-05-27-你的公司容易被杀si吗, Anthropic, AI公司
-- **更新页面**：index, overview, log
-- **影响范围**：6 个页面
-
-## [2026-05-26] ingest | 抄作业Claude负责人演示
-
-- **来源**：http://xhslink.com/o/5cS2uUjm6wL
-- **新增页面**：2026-05-26-抄作业Claude负责人演示, MCP, Model Context Protocol, Cursor
-- **更新页面**：Claude Code, Claude, index, overview, log
-- **影响范围**：9 个页面
-
-## [2026-05-25] ingest | Anthropic内部Prompt写法
-
-- **来源**：http://xhslink.com/o/419zuSb3IEc
-- **新增页面**：2026-05-25-Anthropic内部Prompt写法, Anthropic Prompt技巧, XML Tags, Evaluations, Chain of Thought, 生成-评估-修复循环
-- **更新页面**：Prompt, Prompt工程, index, overview, log
-- **影响范围**：11 个页面
 
 ## [2026-05-25] ingest | Pi Agent比Codex更适合普通人的AI工具
 
