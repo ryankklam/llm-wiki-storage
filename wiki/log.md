@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-05-31] ingest | AI Agent四种范式对比 📕小红书
+
+- **来源**：http://xhslink.com/o/7cKWagmGroR
+- **平台**：小红书
+- **新增页面**：2026-05-31-AI Agent四种范式对比, Agent范式, ReAct, Plan-and-Execute, Multi-Agent, Tool Use, AutoGen, CrewAI, Function Calling
+- **更新页面**：index, overview, log
+- **影响范围**：12 个页面
+
+---
+
 ## [2026-05-31] ingest | FDE脚下的地基Ontology 🎵抖音
 
 - **来源**：https://v.douyin.com/KJRIBHsiPPk/
