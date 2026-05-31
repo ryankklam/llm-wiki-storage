@@ -7,13 +7,18 @@
 - **2026-05-10** [skill实战: 从0到1写一个你自己的skill]([[2026-05-10-skill实战- 从0到1写一个你自己的skill]])
 - **2026-05-25** [Pi Agent比Codex更适合普通人的AI工具]([[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]])
 - **2026-05-28** [如何在有限上下文窗口内放入关键内容]([[2026-05-28-如何在有限上下文窗口内放入关键内容]])
-- **2026-05-31** [FDE脚下的地基Ontology]([[2026-05-31-FDE脚下的地基Ontology]])
+- **2026-05-31** [FDE脚下的地基Ontology]([[2026-05-31-FDE脚下的地基Ontology]]) 🎵抖音
 
 
 ## 实体
 <!-- 人物、组织、产品等 -->
+- [[Palantir]] - 大数据分析公司，Foundry平台
 
 ## 概念
+- [[Ontology]] - 本体论，语义数据模型
+- [[FDE]] - Foundry Data Engine
+- [[数字孪生]] - 现实世界的数字映射
+- [[语义建模]] - 用语义方式定义数据结构
 - [[Pi Agent]] - 极简底座的日常任务Agent
 - [[Skill]] - Agent的能力扩展单元
 - [[Coding Agent vs 日常任务Agent]] - Agent的两大分类
@@ -28,12 +33,6 @@
 - [[Sliding Window]] - 滑动窗口策略
 - [[摘要压缩]] - 将长内容压缩为关键信息
 - [[脏记忆防护]] - 防止错误/过期记忆污染上下文
-- [[Ontology]] - Palantir的语义建模层
-- [[FDE]] - Forward Deployed Engineer
-- [[Palantir]] - 美国大数据分析公司
-- [[数字孪生]] - Digital Twin of an Organization
-- [[OSDK]] - Ontology SDK开发框架
-- [[语义建模]] - 在语义层面连接数据
 
 ## 主题
 <!-- 综合分析、比较等 -->

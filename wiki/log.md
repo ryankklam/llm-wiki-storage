@@ -1,11 +1,14 @@
 # Wiki Log
 
-## [2026-05-31] ingest | FDE脚下的地基Ontology
+## [2026-05-31] ingest | FDE脚下的地基Ontology 🎵抖音
 
 - **来源**：https://v.douyin.com/KJRIBHsiPPk/
-- **新增页面**：2026-05-31-FDE脚下的地基Ontology, Ontology, FDE, Palantir, 数字孪生, OSDK, 语义建模
+- **平台**：抖音
+- **新增页面**：2026-05-31-FDE脚下的地基Ontology, Ontology, FDE, Palantir
 - **更新页面**：index, overview, log
-- **影响范围**：9 个页面
+- **影响范围**：7 个页面
+
+---
 
 ## [2026-05-28] ingest | 如何在有限上下文窗口内放入关键内容
 

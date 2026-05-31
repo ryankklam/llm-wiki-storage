@@ -1,62 +1,34 @@
 ---
 type: concept
 created: 2026-05-31
-tags: [Palantir, AI, 企业软件, 工程师角色]
+updated: 2026-05-31
+sources: [2026-05-31-FDE脚下的地基Ontology]
 ---
 
-# FDE
-
-> FDE 要解决的不是怎么调模型，而是怎么把模型嵌入一个完全没被打理过的真实世界。
+# FDE（Foundry Data Engine）
 
 ## 定义
 
-FDE（Forward Deployed Engineer，前线部署工程师）是 Palantir 的核心角色，负责把客户具体的业务场景映射到已经搭好的 Ontology 数字世界上，然后用 OSDK 在极短时间内做出能用的应用。
+**FDE（Foundry Data Engine）** 是 Palantir Foundry 平台的核心数据引擎，基于 Ontology 构建数字孪生系统。
 
-## 核心特点
+## 核心能力
 
-### 快速落地
-FDE 之所以能在几周内就开始调业务流程，而不是还在对字段名，是因为：
-- Ontology 已经把企业数据变成了有类型的对象
-- 打开编辑器，所有对象都在代码提示里
-- 只需要想清楚场景需要哪些对象、需要做什么操作
+| 能力 | 说明 |
+|------|------|
+| Ontology 管理 | 定义实体、属性、关系 |
+| 数据集成 | 多源数据统一接入 |
+| 数字孪生 | 现实世界的数字映射 |
+| 实时同步 | 数据变更实时反映 |
 
-### 与传统交付工程师的区别
+## 与 Ontology 的关系
 
-| 传统交付工程师 | FDE |
-|--------------|-----|
-| 前三个月在做数据接入 | 第一周就在调业务流程 |
-| 把数据库接进来、ERP倒出来、Excel洗干净 | 用 Ontology 建模 |
-| 先铺管道再想怎么用 | 先想清楚问题再决定对象 |
-| 从零学习数据结构和命名规则 | 所有对象在代码提示里 |
+> Ontology 是 FDE 的地基，决定了数字孪生的表达能力。
 
-## 工作方式
+FDE 的所有数据操作都基于 Ontology 定义的对象模型：
+- 数据存储 → Ontology 实体
+- 数据查询 → 图遍历 + 语义推理
+- 数据更新 → Ontology Action
 
-FDE 使用 OSDK（Ontology SDK）开发应用：
-- 支持 TypeScript、Python、Java
-- 在编辑器里用已建模的 Ontology API 直接开发
-- Ontology 定义的对象、属性、链接、动作自动生成类型安全的接口
-
-## 为什么被 AI 行业抄作业
-
-Palantir 做了 20 年的 FDE 角色，最近被整个 AI 行业疯狂抄作业（OpenAI 划 40 亿、Anthropic 划 15 亿），原因：
-
-模型再强，到了客户现场，面对的不是干净的 API 调用，而是：
-- 几十个系统
-- 几十套命名
-- 几十年的混乱
-
-FDE 要解决的不是怎么调模型，而是怎么把模型嵌入一个完全没被打理过的真实世界。
-
-## 前提条件
-
-FDE 模式能跑通的唯一前提是 Ontology：
-- 没有 Ontology，FDE 是穿着工程师外套的昂贵顾问
-- 有了 Ontology，FDE 才是反向传播的人类等价物
-
-## 相关来源
-- [[2026-05-31-FDE脚下的地基Ontology]]
-
-## 相关概念
-- [[Ontology]] - Palantir 的语义建模层
-- [[Palantir]] - 美国大数据分析公司
-- [[OSDK]] - Ontology SDK 开发框架
+## 关联
+- 相关概念：[[Ontology]]、[[Palantir]]、[[数字孪生]]
+- 相关工具：[[OSDK]]
