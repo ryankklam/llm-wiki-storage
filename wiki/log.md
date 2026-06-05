@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-05] ingest | Anthropic 数据 Agent 95% 准确率背后② 📕小红书
+
+- **来源**：http://xhslink.com/o/22piFx3x5Hd
+- **平台**：小红书
+- **新增页面**：2026-06-05-Anthropic数据Agent95%准确率背后②, Anthropic数据Agent架构, 数据Agent四层架构, Data Agent, 语义层, 血缘图, 消融实验, 对抗审查, 来源追溯, 静默失败
+- **更新页面**：index, overview, log
+- **影响范围**：13 个页面
+
+---
+
 ## [2026-05-31] ingest | AI Agent四种范式对比 📕小红书
 
 - **来源**：http://xhslink.com/o/7cKWagmGroR
