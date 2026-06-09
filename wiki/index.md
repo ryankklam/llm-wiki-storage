@@ -10,6 +10,7 @@
 - **2026-05-31** [FDE脚下的地基Ontology]([[2026-05-31-FDE脚下的地基Ontology]]) 🎵抖音
 - **2026-05-31** [AI Agent四种范式对比]([[2026-05-31-AI Agent四种范式对比]]) 📕小红书
 - **2026-06-05** [Anthropic 数据 Agent 95% 准确率背后②]([[2026-06-05-Anthropic数据Agent95%准确率背后②]]) 📕小红书
+- **2026-06-09** [Agent Loop构建、步骤、实战之完整指南]([[2026-06-09-AgentLoop构建步骤实战指南]]) 📕小红书
 
 
 ## 实体
@@ -52,6 +53,13 @@
 - [[对抗审查]] - 子Agent专门挑错的验证机制
 - [[来源追溯]] - 答案可信度标注机制
 - [[静默失败]] - 答案错了但看起来合理的失败模式
+- [[Agent Loop]] - Agent的核心循环运行机制
+- [[Loop Engineering]] - 为Agent设计循环系统的工程方法论
+- [[Agentic Loop]] - 强调自主性的Agent循环
+- [[Supervisor]] - Agent Loop中的监督代理
+- [[Guardrails]] - Agent Loop中的安全护栏机制
+- [[Open Loop]] - 开放循环模式
+- [[Closed Loop]] - 闭环模式
 
 ## 主题
 <!-- 综合分析、比较等 -->

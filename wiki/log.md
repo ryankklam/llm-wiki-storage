@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-09] ingest | Agent Loop构建、步骤、实战之完整指南 📕小红书
+
+- **来源**：http://xhslink.com/o/1CeQ447Hfxh
+- **平台**：小红书
+- **新增页面**：2026-06-09-AgentLoop构建步骤实战指南, Agent Loop, Loop Engineering, Agentic Loop, Supervisor, Guardrails, Open Loop, Closed Loop
+- **更新页面**：index, overview, log
+- **影响范围**：11 个页面
+
+---
+
 ## [2026-06-05] ingest | Anthropic 数据 Agent 95% 准确率背后② 📕小红书
 
 - **来源**：http://xhslink.com/o/22piFx3x5Hd
