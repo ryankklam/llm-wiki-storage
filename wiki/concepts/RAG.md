@@ -1,39 +1,27 @@
 ---
 type: concept
-created: 2026-05-28
-updated: 2026-05-28
-sources: [2026-05-28-Agent长期记忆如何选]
+created: 2026-06-12
+updated: 2026-06-12
+sources: [2026-06-12-企业AI项目rules红线]
 ---
 
 # RAG
 
 ## 定义
 
-RAG（Retrieval-Augmented Generation，检索增强生成）是一种通过从外部文档中检索相关知识来增强大语言模型生成能力的技术。它从结构化或非结构化的文档中提取知识，服务多个用户或多个任务。
+**RAG（Retrieval-Augmented Generation，检索增强生成）**是 AI 系统中结合外部知识检索与文本生成的技术。在 AI 编程项目中，rules.md / CLAUDE.md 可以约束 RAG 的使用方式、数据来源和检索策略。
 
-## 关键信息
+## 核心特征
 
-### 与长期记忆的关键区别
-| 维度 | RAG | 长期记忆 |
-|------|-----|----------|
-| 数据来源 | 外部文档 | 用户与 Agent 的互动历史 |
-| 服务对象 | 多用户/多任务 | 单个用户/会话 |
-| 个性化程度 | 低 | 高 |
-| 知识类型 | 通用知识 | 用户偏好、行为日志 |
-
-### 核心流程
-1. 文档切分 → Embedding 向量化 → 存入向量数据库
-2. 用户查询 → 向量化 → 语义检索 → 召回相关文档
-3. 将检索结果注入 Prompt → 大语言模型生成回答
-
-### 相关框架
-- LangChain
-- LlamaIndex
+### 与 rules.md 的关系
+- RAG 的证据会占用 Context Window 空间
+- 在 rules.md 中应明确 RAG 的使用优先级
+- 数据来源的可信度约束应在规则中明确
 
 ## 关联
-- 相关概念：[[Agent长期记忆]], [[向量数据库]], [[Embedding]], [[Semantic Search]]
-- 相关来源：[[2026-05-28-Agent长期记忆如何选]]
+
+- 相关概念：[[Context Window]]、[[Prompt工程]]、[[rules.md]]、[[AI项目规范]]
 
 ## 开放问题
-- RAG 与长期记忆的融合方案
-- RAG 在多模态场景下的扩展
+
+- 如何在 rules.md 中规范 RAG 的使用策略？

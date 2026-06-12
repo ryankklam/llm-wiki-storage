@@ -1,52 +1,27 @@
 ---
 type: concept
-created: 2026-05-31
-tags: [Agent, AI, 工具调用, Function Calling, LLM]
+created: 2026-06-12
+updated: 2026-06-12
+sources: [2026-06-12-企业AI项目rules红线]
 ---
 
 # Tool Use
 
-> Agent 的基础能力层，决定模型能否调用外部工具。
-
 ## 定义
 
-Tool Use 是 Agent 的基础能力层范式，核心是**模型根据上下文自主决定工具调用**：
+**Tool Use（工具使用）**是 Agent 的基础能力层，指 LLM 调用外部工具（如文件读写、代码执行、API 调用等）的能力。在 AI 编程项目中，rules.md / CLAUDE.md 可以约束 AI 使用工具的范围和方式。
 
-- 要不要调工具？
-- 调哪个工具？
-- 传什么参数？
-- 拿到结果后继续回复
+## 核心特征
 
-## 特点
+### 与 rules.md 的关系
+- Tool Use 是 Agent 的基础能力
+- 允许使用哪些工具、如何使用，应在 rules.md 中明确
+- 禁止项优先：先告诉 AI 不能用什么工具
 
-### 优势
-- **延迟低**：单次调用，无多轮循环
-- **架构简单**：直接调用，无复杂编排
+## 关联
 
-### 代价
-- **缺少全局规划**：面对多步推理，每一步独立决策，容易偏离目标
-- **不适合复杂任务**：无法处理需要多步协调的场景
+- 相关概念：[[Function Calling]]、[[Agent范式]]、[[rules.md]]、[[AI项目规范]]
 
-## 适用场景
+## 开放问题
 
-适合**单一或简单调用**：
-- 查天气
-- 发邮件
-- 简单数据查询
-- 确定型操作
-
-## 与其他范式的关系
-
-Tool Use 属于**基础能力层**，是其他范式的基础：
-- ReAct 的 Action 可以是 Tool Use
-- Plan-and-Execute 的执行阶段可以使用 Tool Use
-- Multi-Agent 中每个 Agent 可以有 Tool Use 能力
-
-## 相关概念
-- [[Agent范式]] - Agent 架构范式总览
-- [[Function Calling]] - Tool Use 的具体实现方式
-- [[ReAct]] - Tool Use 作为 Action
-- [[LLM]] - 模型自主决定工具调用
-
-## 来源
-- [[2026-05-31-AI Agent四种范式对比]]
+- 如何在 rules.md 中平衡工具使用的自由度与约束？

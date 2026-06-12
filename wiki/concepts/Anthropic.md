@@ -1,27 +1,22 @@
 ---
-type: concept
-created: 2026-05-27
-tags: [Anthropic, AI公司, 模型层]
+type: entity
+created: 2026-05-25
+updated: 2026-06-12
+sources: [2026-05-25-Anthropic内部Prompt写法, 2026-06-12-企业AI项目rules红线]
 ---
 
 # Anthropic
 
-Anthropic 是一家专注于 AI 安全的公司，开发了 Claude 系列模型和 Computer Use 等功能。
+## 定义
 
-## 核心特点
+**Anthropic**是 AI 安全研究公司，开发了 Claude 大语言模型系列。在 AI 编程领域，Anthropic 提倡通过结构化 Prompt 和项目规范文件（CLAUDE.md）来约束 AI 行为。
 
-### 克制策略
-- 不急于推出新功能
-- 等待市场验证后才内化功能
-- 让垂直公司先验证市场可行性
+## 关键信息
 
-### 竞争策略
-Anthropic 不强行介入垂直领域，而是等待：
-1. 市场验证可行
-2. 用户愿意付费
-3. 流程跑通
+- Anthropic 官方推荐结构化 Prompt：使用 XML Tags 分离角色、指南、政策、语气等（来源：[[2026-05-25-Anthropic内部Prompt写法]]）
+- Claude Code 的 CLAUDE.md 是项目级规则文件，用于约束 AI 编程行为（来源：[[2026-06-12-企业AI项目rules红线]]）
 
-然后将成功的功能内化到模型中。
+## 关联
 
-## 来源
-- [[2026-05-27-你的公司容易被杀si吗]]
+- 相关产品：[[Claude]]、[[Claude Code]]
+- 相关概念：[[Prompt工程]]、[[rules.md]]、[[CLAUDE.md]]

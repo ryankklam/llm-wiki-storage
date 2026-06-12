@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-12] ingest | 企业AI项目rules红线：5条硬规矩+6个写法门道 📕小红书
+
+- **来源**：http://xhslink.com/o/5Ok6EKWZd6H
+- **平台**：小红书
+- **新增页面**：2026-06-12-企业AI项目rules红线, rules.md, CLAUDE.md, AI项目规范, Prompt工程规范, System Prompt, 代码规范, 红线规则, 工业级, 范式, 项目管理, 版本控制, 代码审查, Code Review, 自动化, CI/CD, 测试, 部署, 文档, API, JSON, XML, Markdown, Prompt Engineering, Context Window, Token, Function Calling, Tool Use, RAG, Git, AI Agent, LLM
+- **更新页面**：index, overview, log, Claude, Anthropic, Claude Code, Cursor, Prompt工程, Prompt, Function Calling, Tool Use, RAG
+- **影响范围**：37 个页面
+
+---
+
 ## [2026-06-11] ingest | 瑞幸为什么宁愿直播卖券，也不直接降价？ 🎵抖音
 
 - **来源**：https://v.douyin.com/y9inpPhSpso/

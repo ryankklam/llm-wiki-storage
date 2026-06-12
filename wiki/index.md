@@ -4,6 +4,7 @@
 - [[overview]] - 整体综述
 
 ## 来源
+- **2026-06-12** [企业AI项目rules红线：5条硬规矩+6个写法门道]([[2026-06-12-企业AI项目rules红线]]) 📕小红书
 - **2026-06-11** [瑞幸为什么宁愿直播卖券，也不直接降价？]([[2026-06-11-瑞幸为什么宁愿直播卖券]]) 🎵抖音
 - **2026-05-10** [skill实战: 从0到1写一个你自己的skill]([[2026-05-10-skill实战- 从0到1写一个你自己的skill]])
 - **2026-05-25** [Pi Agent比Codex更适合普通人的AI工具]([[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]])
@@ -16,9 +17,42 @@
 
 ## 实体
 <!-- 人物、组织、产品等 -->
+- [[Claude]] - Anthropic 开发的大语言模型
+- [[Anthropic]] - AI 安全研究公司
 - [[Palantir]] - 大数据分析公司，Foundry平台
 
 ## 概念
+- [[rules.md]] - 立给 AI 的项目规则文件
+- [[CLAUDE.md]] - Claude Code 的项目规则文件
+- [[AI项目规范]] - 企业级 AI 编程项目规范体系
+- [[Prompt工程规范]] - Prompt 编写最佳实践体系
+- [[System Prompt]] - 系统级提示词
+- [[代码规范]] - AI 时代的代码约束语言
+- [[红线规则]] - AI 绝对不能触碰的边界
+- [[工业级]] - 稳定可控的 AI 项目交付标准
+- [[范式]] - AI 编程的系统化方法论
+- [[项目管理]] - AI 时代的项目管理
+- [[版本控制]] - 技术栈版本约束与 Git 管理
+- [[代码审查]] - AI 生成代码的审查机制
+- [[Code Review]] - AI 生成代码的审查机制
+- [[自动化]] - AI 按规范自动执行开发任务
+- [[CI/CD]] - 持续集成/持续部署
+- [[测试]] - AI 生成代码的验证环节
+- [[部署]] - AI 生成代码的发布过程
+- [[文档]] - 写给 AI 的语言书
+- [[API]] - AI 项目中的接口规范
+- [[JSON]] - 数据交换格式
+- [[XML]] - 结构化数据标记语言
+- [[Markdown]] - 规则文件的标准格式
+- [[Prompt Engineering]] - 提示工程
+- [[Context Window]] - 上下文窗口
+- [[Token]] - 大模型处理文本的基本单位
+- [[Function Calling]] - LLM 调用外部函数的能力
+- [[Tool Use]] - Agent 基础能力层
+- [[RAG]] - 检索增强生成
+- [[Git]] - 版本控制工具
+- [[AI Agent]] - 自主执行任务的 AI 系统
+- [[LLM]] - 大语言模型
 - [[Ontology]] - 本体论，语义数据模型
 - [[FDE]] - Foundry Data Engine
 - [[数字孪生]] - 现实世界的数字映射
@@ -27,6 +61,7 @@
 - [[Skill]] - Agent的能力扩展单元
 - [[Coding Agent vs 日常任务Agent]] - Agent的两大分类
 - [[Claude Code]] - Coding Agent代表产品
+- [[Cursor]] - AI 编程编辑器
 - [[Skill Creator]] - Skill创建工具
 - [[Skill Store]] - Skill商店
 - [[按需加载]] - Skill的安装策略
@@ -41,7 +76,6 @@
 - [[ReAct]] - 推理与行动交织的范式
 - [[Plan-and-Execute]] - 先规划再执行的范式
 - [[Multi-Agent]] - 多智能体协作范式
-- [[Tool Use]] - Agent基础能力层
 - [[AutoGen]] - Microsoft多Agent框架
 - [[CrewAI]] - 角色扮演式多Agent框架
 - [[Function Calling]] - LLM调用外部函数的能力
