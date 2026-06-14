@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-14] ingest | Loop Engineering：做设计循环的人 📕小红书
+
+- **来源**：http://xhslink.com/o/AnDZB40fexV
+- **平台**：小红书
+- **新增页面**：2026-06-14-LoopEngineering做设计循环的人, Sub-Agents, Automations, Worktrees, State, 自动循环系统
+- **更新页面**：index, overview, log, Loop Engineering, Agent Loop, Agentic Loop, Supervisor, Guardrails, Open Loop, Closed Loop
+- **影响范围**：16 个页面
+
+---
+
 ## [2026-06-12] ingest | 企业AI项目rules红线：5条硬规矩+6个写法门道 📕小红书
 
 - **来源**：http://xhslink.com/o/5Ok6EKWZd6H

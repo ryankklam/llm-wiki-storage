@@ -1,7 +1,8 @@
 ---
 type: concept
 created: 2026-06-09
-tags: [Guardrails, 护栏, Agent, 安全, Token, 迭代]
+updated: 2026-06-14
+tags: [Guardrails, 护栏, Agent, 安全, Token, 迭代, 验证责任]
 ---
 
 # Guardrails
@@ -33,6 +34,17 @@ Guardrails（护栏）是 Agent Loop 中的安全机制，用于防止循环在�
 
 护栏的设置必须清晰、可写成代码形式，而非模糊的想法。停止条件应该用公式或代码来表达。
 
+## Loop 语义：Loop vs Goal
+
+- **Loop**：重复运行
+- **Goal**：一直运行，直到条件真的满足
+
+比如你写"所有测试通过、Lint 干净"，Agent 每轮推进一点，每轮之后另一个模型检查有没有完成。写代码的不给自己打分。
+
+## 验证责任
+
+Agent 说"done"只是一个主张，不是证明。测试、Review、上线后的信号才是证据。最后判断这件事能不能进主干，仍然是工程师责任。
+
 ## 常见停止条件
 
 - 单元测试全部通过
@@ -45,6 +57,8 @@ Guardrails（护栏）是 Agent Loop 中的安全机制，用于防止循环在�
 - [[Loop Engineering]] - 循环工程方法论
 - [[Token]] - Token 消耗控制
 - [[Context Window]] - 上下文窗口限制
+- [[Supervisor]] - 监督代理
 
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
+- [[2026-06-14-LoopEngineering做设计循环的人]]

@@ -1,7 +1,8 @@
 ---
 type: concept
 created: 2026-06-09
-tags: [Open Loop, Closed Loop, Agent, 循环, 反馈]
+updated: 2026-06-14
+tags: [Open Loop, Closed Loop, Agent, 循环, 反馈, 认知距离]
 ---
 
 # Open Loop
@@ -21,6 +22,10 @@ Open Loop（开放循环）是指 Agent 的循环运行中，输出不直接反�
 | 适用场景 | 简单任务、需要人工判断 | 可自动化验证的任务 |
 | 可信性 | 依赖人工评审 | 依赖自动验证 |
 
+## 认知距离问题
+
+Loop 越快交付你没写的代码，你和系统之间的距离就越大。在 Open Loop 模式下，人工介入可以缓解这个问题，但也意味着工程师需要更频繁地审查系统输出。
+
 ## 适用场景
 
 - 任务结果难以自动评估
@@ -36,3 +41,4 @@ Open Loop（开放循环）是指 Agent 的循环运行中，输出不直接反�
 
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
+- [[2026-06-14-LoopEngineering做设计循环的人]]

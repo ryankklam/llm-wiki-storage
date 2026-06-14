@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-05-10
-updated: 2026-06-12
+updated: 2026-06-14
 ---
 
 # 知识库概览
@@ -9,9 +9,9 @@ updated: 2026-06-12
 > 本 Wiki 由 LLM 自动维护。
 
 ## 当前状态
-- 来源数量：9
-- 总页面数：96
-- 最近更新：2026-06-12
+- 来源数量：10
+- 总页面数：102
+- 最近更新：2026-06-14
 - 支持平台：小红书、抖音
 
 ## 核心发现
@@ -126,6 +126,27 @@ Anthropic 创始人 Lior Shternberg 和 Claude Code 创始人 Boris 都公开表
 **Token 优化关键策略**：协调者只路由不推理——协调者输出只是路由方向（如 12345），可以非常短。所有 LLM 模型输出成本大于输入成本，省输出是四两拨千斤。
 
 **Loop Engineering 的核心认知**：不是让工作变容易，而是难点上移。原来 Prompt 工程师协调指令，现在 Loop Engineering 要求设计一个能够持续、可验证地运行来完成复杂任务的系统。
+
+### Loop Engineering 实践：五个核心组件
+> 从实践角度，一个 Loop 需要五个组件和一个 State 记忆系统。
+
+| 组件 | 核心职责 |
+|------|----------|
+| Automations | Loop 的心跳，按节奏醒来，去看 Issue、CI、Commit |
+| Worktrees | 给每个 Agent 独立的 Checkout，避免文件冲突 |
+| Skills | 把项目约定写成文件，避免每次冷启动 |
+| Plugins 和 Connectors | 通过 MCP 让 Agent 接触真实工具 |
+| Sub-Agents | Maker 和 Checker 分开，写代码的不给自己盖章 |
+| State | 记住做过什么、通过什么、还剩什么 |
+
+**Claude Code vs Cursor 实现**：Claude Code 有 Automations Tab、内建 Worktrees、Agent Skills、MCP Plugins、Sub-Agents；Cursor 有 Agents、Queues 和 Hooks、Git Worktree、Skills、MCP Service、Agent Teams。名字不同，能力本质相同。重点不是按下某个按钮，重点是设计一个换了工具也还能跑的工作回路。
+
+**Loop 的三大风险**：
+1. **验证责任**：Agent 说"done"只是主张不是证明，测试/Review/上线后信号才是证据
+2. **认知距离**：Loop 越快交付你没写的代码，你和系统之间的距离越大
+3. **渐进式放弃**：当系统看起来能自己跑，人容易停止判断，慢慢改变工作习惯
+
+**核心结论**：构建 Loop，但继续做工程师。
 
 ### 直播卖券的经济学逻辑
 > 直播卖券不是简单的降价，而是一套集价格歧视、预付款融资、用户锁定、品牌保护于一体的精细化经营动作。
