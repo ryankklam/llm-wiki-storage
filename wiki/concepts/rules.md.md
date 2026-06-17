@@ -1,15 +1,15 @@
 ---
 type: concept
 created: 2026-06-12
-updated: 2026-06-12
-sources: [2026-06-12-企业AI项目rules红线]
+updated: 2026-06-17
+sources: [2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit]
 ---
 
 # rules.md
 
 ## 定义
 
-**rules.md 是立给 AI 的项目规则文件**，是 AI 编程项目中的"宪法"。AI 在执行任何操作前都必须先服从这一份规则。Claude Code 的 CLAUDE.md、Cursor 的 Cursor Rules，不管哪个工具，本质都是同一份东西。
+**rules.md 是立给 AI 的项目规则文件**，是 AI 编程项目中的"宪法"。AI 在执行任何操作前都必须先服从这一份规则。Claude Code 的 CLAUDE.md、Cursor 的 Cursor Rules，不管哪个工具，本质都是同一份东西。在 Spec-Kit 框架中，rules.md 是 Constitution（项目宪法）在 Cursor 等工具中的具体体现。
 
 ## 核心特征
 
@@ -63,9 +63,9 @@ sources: [2026-06-12-企业AI项目rules红线]
 
 ## 关联
 
-- 相关概念：[[CLAUDE.md]]、[[System Prompt]]、[[Prompt工程]]、[[AI项目规范]]、[[代码规范]]
+- 相关概念：[[CLAUDE.md]]、[[System Prompt]]、[[Prompt工程]]、[[AI项目规范]]、[[代码规范]]、[[Constitution]]、[[Spec-Kit]]
 - 对比概念：[[Prompt]]（单次指令）vs rules.md（持久项目规则）
-- 应用场景：[[Coding Agent vs 日常任务Agent]]
+- 应用场景：[[Coding Agent vs 日常任务Agent]]、[[AI编程交付]]
 
 ## 开放问题
 

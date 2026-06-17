@@ -1,15 +1,15 @@
 ---
 type: concept
 created: 2026-06-12
-updated: 2026-06-12
-sources: [2026-06-12-企业AI项目rules红线]
+updated: 2026-06-17
+sources: [2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit]
 ---
 
 # CLAUDE.md
 
 ## 定义
 
-**CLAUDE.md 是 Claude Code 工具中的项目规则文件**，功能上等同于通用的 rules.md 或 Cursor 的 Cursor Rules。它是放置在项目根目录下的 Markdown 文档，用于向 Claude AI 定义项目规范、行为边界和技术约束。
+**CLAUDE.md 是 Claude Code 工具中的项目规则文件**，功能上等同于通用的 rules.md 或 Cursor 的 Cursor Rules。它是放置在项目根目录下的 Markdown 文档，用于向 Claude AI 定义项目规范、行为边界和技术约束。在 Spec-Kit 框架中，CLAUDE.md 是 Constitution（项目宪法）在 Claude Code 中的具体体现。
 
 ## 核心特征
 
@@ -53,9 +53,10 @@ sources: [2026-06-12-企业AI项目rules红线]
 
 ## 关联
 
-- 相关概念：[[rules.md]]、[[System Prompt]]、[[Prompt工程]]、[[Claude Code]]
+- 相关概念：[[rules.md]]、[[System Prompt]]、[[Prompt工程]]、[[Claude Code]]、[[Constitution]]、[[Spec-Kit]]
 - 同功能文件：Cursor Rules、.cursorrules
 - 相关工具：[[Claude Code]]
+- 相关流程：[[立宪法]]、[[AI编程交付]]
 
 ## 开放问题
 

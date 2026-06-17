@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-17] ingest | AI 编程交付企业级项目 Spec-Kit 是必学技术 📕小红书
+
+- **来源**：http://xhslink.com/o/6B5XkCvlVpb
+- **平台**：小红书
+- **新增页面**：2026-06-17-AI编程交付企业级项目SpecKit, Spec-Kit, 企业级AI项目, AI编程交付, 立宪法, 一致性检查, 主动追问, Constitution, OpenSpec, Gate
+- **更新页面**：index, overview, log, rules.md, CLAUDE.md, Claude Code, Cursor, Claude, Anthropic
+- **影响范围**：19 个页面
+
+---
+
 ## [2026-06-14] ingest | Loop Engineering：做设计循环的人 📕小红书
 
 - **来源**：http://xhslink.com/o/AnDZB40fexV
