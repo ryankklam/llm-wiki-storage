@@ -4,6 +4,7 @@
 - [[overview]] - 整体综述
 
 ## 来源
+- **2026-06-17** [Agent Skill过多？4招提升命中]([[2026-06-17-AgentSkill过多4招提升命中]]) 📕小红书
 - **2026-06-17** [AI 编程交付企业级项目 Spec-Kit 是必学技术]([[2026-06-17-AI编程交付企业级项目SpecKit]]) 📕小红书
 - **2026-06-14** [Loop Engineering：做设计循环的人]([[2026-06-14-LoopEngineering做设计循环的人]]) 📕小红书
 - **2026-06-12** [企业AI项目rules红线：5条硬规矩+6个写法门道]([[2026-06-12-企业AI项目rules红线]]) 📕小红书
@@ -70,6 +71,14 @@
 - [[语义建模]] - 用语义方式定义数据结构
 - [[Pi Agent]] - 极简底座的日常任务Agent
 - [[Skill]] - Agent的能力扩展单元
+- [[Skill路由]] - Agent Skill选择机制
+- [[Skill Tree]] - Skill分层组织结构
+- [[分层路由]] - 分层缩小搜索空间的路由策略
+- [[负样本]] - Skill描述中的When Not to Use
+- [[召回重排]] - 两阶段检索策略
+- [[渐进式加载]] - Progressive Disclosure，按需加载Skill内容
+- [[Skill Router]] - 技能路由器组件
+- [[语义匹配]] - 基于语义理解的匹配技术
 - [[Coding Agent vs 日常任务Agent]] - Agent的两大分类
 - [[Claude Code]] - Coding Agent代表产品
 - [[Cursor]] - AI 编程编辑器

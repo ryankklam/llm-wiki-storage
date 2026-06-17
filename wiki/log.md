@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-17] ingest | Agent Skill过多？4招提升命中 📕小红书
+
+- **来源**：http://xhslink.com/o/51CzJE5TRxS
+- **平台**：小红书
+- **新增页面**：2026-06-17-AgentSkill过多4招提升命中, Skill路由, Skill Tree, 分层路由, 负样本, 召回重排, 渐进式加载, Skill Router, 语义匹配
+- **更新页面**：index, overview, log, Skill, RAG, LLM, Multi-Agent, Sub-Agents, Function Calling, Tool Use, Context Window, Prompt, AI Agent, Token, 向量数据库
+- **影响范围**：24 个页面
+
+---
+
 ## [2026-06-17] ingest | AI 编程交付企业级项目 Spec-Kit 是必学技术 📕小红书
 
 - **来源**：http://xhslink.com/o/6B5XkCvlVpb

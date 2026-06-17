@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-05-10
-updated: 2026-05-25
-sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-05-25-Pi Agent比Codex更适合普通人的AI工具]
+updated: 2026-06-17
+sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-05-25-Pi Agent比Codex更适合普通人的AI工具, 2026-06-17-AgentSkill过多4招提升命中]
 ---
 
 # Skill
@@ -49,11 +49,27 @@ my-skill/
 - 装一个Skill，Agent就多一项能力
 - 每个人手中的Agent最后长得都不太一样
 
+## Skill描述优化与路由
+
+来源：[[2026-06-17-AgentSkill过多4招提升命中]]
+
+当Skill数量从几个增长到上百个后，路由本身变成了检索问题。优化Skill描述是提升命中率的关键：
+
+- **Name和Description是向量检索的标题和摘要**：写得模糊（如"数据分析助手"），模型根本分不清谁是谁
+- **写触发场景而非功能介绍**：不要写"负责生成PPT"，而要写"当用户要求制作汇报材料、融资路演、纪要总结或演示文稿时使用"
+- **增加负样本描述**：除了告诉模型什么时候用，还要告诉模型什么时候不要用（When Not to Use）
+- **建立Skill Tree进行分层路由**：大类→子类→具体Skill，搜索空间大幅缩小
+- **引入召回加重排**：先用Embedding或关键词检索召回Top 10，再交给大模型做最终判断
+
+### Anthropic Progressive Disclosure
+Claude不会把所有Skill全部塞进上下文，而是先读取每个Skill的名称和描述，再决定要不要加载完整内容。所以很多人优化错了方向：天天优化Skill内部Prompt，却不优化Skill的描述信息。
+
 ## 关联
-- 相关概念：[[Pi Agent]]、[[Coding Agent vs 日常任务Agent]]、[[Skill Store]]、[[Skill Creator]]、[[按需加载]]
+- 相关概念：[[Pi Agent]]、[[Coding Agent vs 日常任务Agent]]、[[Skill Store]]、[[Skill Creator]]、[[按需加载]]、[[Skill路由]]、[[Skill Tree]]、[[分层路由]]、[[负样本]]、[[召回重排]]、[[渐进式加载]]、[[Skill Router]]、[[语义匹配]]
 - 相关实体：Claude Code
-- 相关来源：[[2026-05-10-skill实战- 从0到1写一个你自己的skill]]、[[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]]
+- 相关来源：[[2026-05-10-skill实战- 从0到1写一个你自己的skill]]、[[2026-05-25-Pi Agent比Codex更适合普通人的AI工具]]、[[2026-06-17-AgentSkill过多4招提升命中]]
 
 ## 开放问题
 - Skill生态的标准化程度如何？
 - 不同Agent之间的Skill能否互通？
+- Skill数量达到上千个时，路由系统的性能瓶颈在哪里？

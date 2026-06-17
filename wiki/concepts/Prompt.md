@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-05-11
-updated: 2026-05-25
-sources: [2026-05-11-万物都可蒸馏Skill-5min讲清机制, 2026-05-25-Anthropic内部Prompt写法]
+updated: 2026-06-17
+sources: [2026-05-11-万物都可蒸馏Skill-5min讲清机制, 2026-05-25-Anthropic内部Prompt写法, 2026-06-17-AgentSkill过多4招提升命中]
 ---
 
 # Prompt
@@ -59,6 +59,18 @@ Prompt 永远无法跳出大模型本身，去调取外部工具、读写文件�
 - **说明权衡的两面**：不只说成本，也要说收益
 - **模型可能扣留信息**：过度优化可能导致信息扣留
 
+## Prompt 与 Skill 描述
+
+来源：[[2026-06-17-AgentSkill过多4招提升命中]]
+
+很多人优化错了方向：天天优化 Skill 内部 Prompt，却不优化 Skill 的描述信息。
+
+- Skill 的 Name 和 Description 本质上就是向量检索里的标题和摘要
+- Description 的清晰度直接决定路由命中率
+- 优化 Skill 内部 Prompt 对路由没有帮助，因为模型可能根本选不到这个 Skill
+- 正确的优化顺序：先优化 Description（让模型选对 Skill）→ 再优化内部 Prompt（让 Skill 执行得好）
+
 ## 开放问题
 - Prompt 工程的最佳实践是什么？
 - 如何设计高质量的 Prompt？
+- Skill Description 的优化是否应纳入 Prompt 工程范畴？

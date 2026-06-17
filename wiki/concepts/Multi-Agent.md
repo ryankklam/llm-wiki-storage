@@ -52,11 +52,26 @@ Multi-Agent 属于**组织架构层**，可以与其他范式叠加：
 - **Planner**：负责规划任务分配
 - **Executor**：负责执行具体任务
 
+## Multi-Agent 与 Skill 路由
+
+来源：[[2026-06-17-AgentSkill过多4招提升命中]]
+
+在 Multi-Agent 架构中，Skill 路由问题可以通过**分层路由**来缓解：
+
+- **Orchestrator（协调器）**先判断任务类型，将请求路由到对应的 Sub-Agent 或 Skill 组
+- 每个 Sub-Agent 只管理自己领域内的少量 Skill，避免了全局平铺的问题
+- 这与 Skill Tree 的分层思想一致：大类 → 子类 → 具体 Skill
+
+大型 AI Agent 系统通常采用这种分层路由而非一次性全量匹配。
+
 ## 相关概念
 - [[Agent范式]] - Agent 架构范式总览
 - [[AutoGen]] - Microsoft 多 Agent 框架
 - [[CrewAI]] - 角色扮演式多 Agent 框架
 - [[Context Window]] - 每个 Agent 只需关注自己的范围
+- [[Skill路由]] - Agent Skill 选择机制
+- [[分层路由]] - 分层缩小搜索空间
 
 ## 来源
 - [[2026-05-31-AI Agent四种范式对比]]
+- [[2026-06-17-AgentSkill过多4招提升命中]]
