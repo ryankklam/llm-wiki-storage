@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-19] ingest | Agent记忆管理：别只答向量库加RAG 📕小红书
+
+- **来源**：http://xhslink.com/o/6yFy1Qi8PmY
+- **平台**：小红书
+- **新增页面**：2026-06-19-Agent记忆管理别只答向量库加RAG, Agent记忆管理, 显式读写, 隐式读写, 状态管理三件套, 双时间机制, 程序性经验
+- **更新页面**：index, overview, log, Agent长期记忆, 向量数据库, RAG, Context Window优化, Sliding Window, 短期记忆管理, 长期记忆管理, 脏记忆防护, 摘要压缩, 知识图谱, Mem0, 阿里云长期记忆方案, LLM, AI Agent
+- **影响范围**：25 个页面
+
+---
+
 ## [2026-06-17] ingest | Agent Skill过多？4招提升命中 📕小红书
 
 - **来源**：http://xhslink.com/o/51CzJE5TRxS

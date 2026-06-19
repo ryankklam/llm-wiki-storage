@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-06-12
-updated: 2026-06-17
-sources: [2026-06-12-企业AI项目rules红线, 2026-06-17-AgentSkill过多4招提升命中]
+updated: 2026-06-19
+sources: [2026-06-12-企业AI项目rules红线, 2026-06-17-AgentSkill过多4招提升命中, 2026-06-19-Agent记忆管理别只答向量库加RAG]
 ---
 
 # RAG
