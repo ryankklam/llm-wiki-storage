@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-20] ingest | 面试官：商品库存存在Redis里，怎么保证缓存和数据库的数据一致性？ 📕小红书
+
+- **来源**：http://xhslink.com/o/6f6lIaFVazc
+- **平台**：小红书
+- **新增页面**：2026-06-20-Redis缓存与数据库一致性, 缓存一致性, 延迟双删, 缓存穿透, 缓存击穿, 缓存雪崩, Cache Aside, Canal, 消息队列, 分布式锁, 最终一致性, 强一致性, Redis, MySQL, 后端面试
+- **更新页面**：index, overview, log
+- **影响范围**：18 个页面
+
+---
+
 ## [2026-06-19] ingest | Agent记忆管理：别只答向量库加RAG 📕小红书
 
 - **来源**：http://xhslink.com/o/6yFy1Qi8PmY
