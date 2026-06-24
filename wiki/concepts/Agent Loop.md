@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Agent, Loop, 循环, Feedback Loop, Iteration, Self-Correction, 自动循环系统]
 ---
 
@@ -35,6 +35,24 @@ Agent Loop 主要包括五大部分和一个 Memory 层：
 | Plugins 和 Connectors | 通过 MCP 让 Agent 接触真实工具 |
 | Sub-Agents | Maker 和 Checker 分开，写代码的不给自己盖章 |
 | State | 记住做过什么、通过什么、还剩什么 |
+
+## Loop 的五大组件（面试视角）
+
+从面试精讲角度，Agent Loop 包含五个核心组件：
+
+| 组件 | 核心职责 |
+|------|----------|
+| 明确的目标 | Agent 自己能判断是否达成的定义，如单元测试通过、复杂度降低20% |
+| 上下文管理 | 压缩、摘要、检知策略，防止撑爆 Token 上限或重复失败 |
+| 可调用的工具 | 终端、文件系统、测试运行器，循环质量取决于反馈的真实性 |
+| 产出评估 | 跑测试、LLM 打分、对比 Diff，没有评估循环就失去方向 |
+| 停止条件 | 目标达成停、最大次数停、无进展停，直接影响 Token 成本和产出质量 |
+
+## 三大核心风险
+
+1. **无限循环**：无合理停止条件 → 硬性迭代上限 + 无进展检测
+2. **目标飘移**：Agent 偏离最初目标 → 每轮目标对照 + 持久化存储
+3. **Context 溢出**：窗口被历史填满 → 压缩与裁剪
 
 ## 设计五步法
 
@@ -72,3 +90,4 @@ Agent Loop 代表从 Prompt 工程到 Loop Engineering 的范式转移。原来�
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

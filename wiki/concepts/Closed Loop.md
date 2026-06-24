@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Closed Loop, Agent, 闭环, 反馈, 自动验证, 渐进式放弃]
 ---
 
@@ -51,3 +51,4 @@ Closed Loop（闭环）是指 Agent 的循环运行中，输出自动反馈回�
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Guardrails, 护栏, Agent, 安全, Token, 迭代, 验证责任]
 ---
 
@@ -62,3 +62,4 @@ Agent 说"done"只是一个主张，不是证明。测试、Review、上线后�
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

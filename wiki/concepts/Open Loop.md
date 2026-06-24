@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Open Loop, Closed Loop, Agent, 循环, 反馈, 认知距离]
 ---
 
@@ -42,3 +42,4 @@ Loop 越快交付你没写的代码，你和系统之间的距离就越大。在
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

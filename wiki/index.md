@@ -4,6 +4,7 @@
 - [[overview]] - 整体综述
 
 ## 来源
+- **2026-06-24** [大模型面试精讲 Loop Engineering]([[2026-06-24-大模型面试精讲LoopEngineering]]) 📕小红书
 - **2026-06-20** [面试官：商品库存存在Redis里，怎么保证缓存和数据库的数据一致性？]([[2026-06-20-Redis缓存与数据库一致性]]) 📕小红书
 - **2026-06-19** [Agent记忆管理：别只答向量库加RAG]([[2026-06-19-Agent记忆管理别只答向量库加RAG]]) 📕小红书
 - **2026-06-17** [Agent Skill过多？4招提升命中]([[2026-06-17-AgentSkill过多4招提升命中]]) 📕小红书
@@ -118,6 +119,7 @@
 - [[静默失败]] - 答案错了但看起来合理的失败模式
 - [[Agent Loop]] - Agent的核心循环运行机制
 - [[Loop Engineering]] - 为Agent设计循环系统的工程方法论
+- [[Harness Engineering]] - 为Agent提供运行环境的工程实践
 - [[Agentic Loop]] - 强调自主性的Agent循环
 - [[Supervisor]] - Agent Loop中的监督代理
 - [[Guardrails]] - Agent Loop中的安全护栏机制

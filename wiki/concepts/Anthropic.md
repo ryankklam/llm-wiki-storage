@@ -1,8 +1,8 @@
 ---
 type: entity
 created: 2026-05-25
-updated: 2026-06-17
-sources: [2026-05-25-Anthropic内部Prompt写法, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit]
+updated: 2026-06-24
+sources: [2026-05-25-Anthropic内部Prompt写法, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit, 2026-06-24-大模型面试精讲LoopEngineering]
 ---
 
 # Anthropic

@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-24] ingest | 大模型面试精讲 Loop Engineering 📕小红书
+
+- **来源**：http://xhslink.com/o/6hVsXRj9OeW
+- **平台**：小红书
+- **新增页面**：2026-06-24-大模型面试精讲LoopEngineering, Harness Engineering
+- **更新页面**：index, overview, log, Loop Engineering, Agent Loop, Agentic Loop, Supervisor, Guardrails, Open Loop, Closed Loop, Sub-Agents, Automations, Worktrees, State, 自动循环系统, Claude Code, Cursor, Anthropic
+- **影响范围**：19 个页面
+
+---
+
 ## [2026-06-20] ingest | 面试官：商品库存存在Redis里，怎么保证缓存和数据库的数据一致性？ 📕小红书
 
 - **来源**：http://xhslink.com/o/6f6lIaFVazc

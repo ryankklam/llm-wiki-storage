@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Supervisor, Agent, 监督, 评审, Checker, Planner, Sub-Agents]
 ---
 
@@ -56,3 +56,4 @@ Supervisor 模式与 Anthropic 数据 Agent 架构中的"对抗审查"机制类�
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

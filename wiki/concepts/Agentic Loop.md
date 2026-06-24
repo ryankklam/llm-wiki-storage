@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-06-09
-updated: 2026-06-14
+updated: 2026-06-24
 tags: [Agentic Loop, Agent, 自主, 循环, Autonomous, 自动循环系统]
 ---
 
@@ -36,3 +36,4 @@ Agentic Loop 与 Agent Loop 本质上是同一概念的不同表述。Agentic Lo
 ## 来源
 - [[2026-06-09-AgentLoop构建步骤实战指南]]
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

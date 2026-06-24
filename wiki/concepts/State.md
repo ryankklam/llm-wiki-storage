@@ -1,6 +1,7 @@
 ---
 type: concept
 created: 2026-06-14
+updated: 2026-06-24
 tags: [State, 状态记忆, Loop, Agent, Markdown, Linear, Progress Files]
 ---
 
@@ -37,3 +38,4 @@ Skills 把项目约定写成文件避免冷启动，State 把运行进度写成�
 
 ## 来源
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

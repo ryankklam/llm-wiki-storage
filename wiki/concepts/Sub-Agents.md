@@ -1,6 +1,7 @@
 ---
 type: concept
 created: 2026-06-14
+updated: 2026-06-24
 tags: [Sub-Agents, Agent, 子代理, Maker, Checker, Supervisor, Claude Code, Cursor]
 ---
 
@@ -55,3 +56,4 @@ Sub-Agents 很有价值，但不应该到处乱花。它更适合：
 ## 来源
 - [[2026-06-14-LoopEngineering做设计循环的人]]
 - [[2026-06-17-AgentSkill过多4招提升命中]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

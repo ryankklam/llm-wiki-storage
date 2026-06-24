@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-05-10
-updated: 2026-06-17
-sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit]
+updated: 2026-06-24
+sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit, 2026-06-24-大模型面试精讲LoopEngineering]
 ---
 
 # Cursor

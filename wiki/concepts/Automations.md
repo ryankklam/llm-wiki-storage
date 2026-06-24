@@ -1,6 +1,7 @@
 ---
 type: concept
 created: 2026-06-14
+updated: 2026-06-24
 tags: [Automations, 自动化, Loop, 触发, Claude Code, Cursor, Cron, Hooks, GitHub Actions]
 ---
 
@@ -38,3 +39,4 @@ Automations 让重复检查变成系统行为，而不是人的负担。工具�
 
 ## 来源
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]

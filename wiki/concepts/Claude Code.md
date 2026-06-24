@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-05-10
-updated: 2026-06-17
-sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit]
+updated: 2026-06-24
+sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-06-12-企业AI项目rules红线, 2026-06-17-AI编程交付企业级项目SpecKit, 2026-06-24-大模型面试精讲LoopEngineering]
 ---
 
 # Claude Code
@@ -16,6 +16,7 @@ sources: [2026-05-10-skill实战- 从0到1写一个你自己的skill, 2026-06-12
 - Claude Code 的 CLAUDE.md 本质与 rules.md、Cursor Rules 相同，都是立给 AI 的项目规则文件（来源：[[2026-06-12-企业AI项目rules红线]]）
 - 是 Coding Agent 的代表产品之一（来源：[[2026-05-10-skill实战- 从0到1写一个你自己的skill]]）
 - Claude Code 是 Spec-Kit 框架的主要适配工具之一，通过 Agent 注册中心进行集成（来源：[[2026-06-17-AI编程交付企业级项目SpecKit]]）
+- Claude Code 是支撑生产级 Loop 方案的主流工具之一，给 Agent 提供完整的终端、文件系统和测试运行器（来源：[[2026-06-24-大模型面试精讲LoopEngineering]]）
 - Claude Code 本身是命令行工具，Cursor 本质也是命令行之壳封装了可视化 IDE 环境（来源：[[2026-06-17-AI编程交付企业级项目SpecKit]]）
 
 ## 关联

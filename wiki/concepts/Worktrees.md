@@ -1,6 +1,7 @@
 ---
 type: concept
 created: 2026-06-14
+updated: 2026-06-24
 tags: [Worktrees, Git, 工作树, 隔离, Claude Code, Cursor, Agent]
 ---
 
@@ -36,3 +37,4 @@ Worktrees 把文件分开，但它不会替你判断哪份改动值得合并。�
 
 ## 来源
 - [[2026-06-14-LoopEngineering做设计循环的人]]
+- [[2026-06-24-大模型面试精讲LoopEngineering]]
