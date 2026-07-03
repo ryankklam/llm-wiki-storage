@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-07-03] ingest | 面试问密码怎么存？答MD5直接被淘汰 📕小红书
+
+- **来源**：http://xhslink.com/o/99qbe4S90fU
+- **平台**：小红书
+- **新增页面**：2026-07-03-面试问密码怎么存答MD5直接被淘汰, 密码安全, MD5, BCrypt, 加盐, 彩虹表, 暴力破解, 慢哈希, 哈希算法
+- **更新页面**：index, overview, log
+- **影响范围**：12 个页面
+
+---
+
 ## [2026-06-24] ingest | 大模型面试精讲 Loop Engineering 📕小红书
 
 - **来源**：http://xhslink.com/o/6hVsXRj9OeW
