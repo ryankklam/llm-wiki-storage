@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-07-24] ingest | Agent成本优化：如何让同样的任务少花钱 📕小红书
+
+- **来源**：http://xhslink.cn/o/9THT7MmOXTr
+- **平台**：小红书
+- **新增页面**：2026-07-24-Agent成本优化如何让同样的任务少花钱, Agent成本优化, Token成本, 模型路由, 缓存策略, 批处理优化
+- **更新页面**：index, overview, log, AI Agent, LLM, Token, Cursor, Loop Engineering, Context Window, Prompt, Harness Engineering
+- **影响范围**：17 个页面
+
+---
+
 ## [2026-07-03] ingest | 面试问密码怎么存？答MD5直接被淘汰 📕小红书
 
 - **来源**：http://xhslink.com/o/99qbe4S90fU
