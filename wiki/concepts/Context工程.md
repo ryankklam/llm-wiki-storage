@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-05-11
-updated: 2026-05-11
-sources: [2026-05-11-万物都可蒸馏Skill-5min讲清机制]
+updated: 2026-08-01
+sources: [2026-05-11-万物都可蒸馏Skill-5min讲清机制, 2026-08-01-生产级Agent缺的不是PromptContext]
 ---
 
 # Context工程
@@ -34,12 +34,21 @@ sources: [2026-05-11-万物都可蒸馏Skill-5min讲清机制]
 
 **[[Skill]]** 是 Context 工程思想的标准化、可复用、可自主调用的落地形态。
 
+## 企业级落地：Context Layer
+
+在生产级Agent场景中，Context工程的系统化落地是 [[Context Layer]]——一个将企业知识转化为机器可用Context的持续运行基础设施：
+
+- **核心公式**：Performance = Intelligence × Context，模型智能增长1000倍但Context几乎没动
+- **系统化载体**：[[Company Brain]] 汇聚企业知识，通过MCP、SQL、Vector Retrieval等检索
+- **工程化管理**：Context需要像代码一样进行版本控制、依赖管理、质量管理（[[GitHub for Context]]）
+- **持续学习**：通过 [[Compounding Learning Loop]] 让Agent Trace回流修正Skills与Context
+
 ## 关键信息
 - Context 工程不追求一次性告诉模型所有事（来源：[[2026-05-11-万物都可蒸馏Skill-5min讲清机制]]）
 - 渐进式上下文披露是 Context 工程的核心灵魂
 
 ## 关联
-- 相关概念：[[Skill]]、[[Prompt工程]]、[[渐进式上下文披露]]
+- 相关概念：[[Skill]]、[[Prompt工程]]、[[渐进式上下文披露]]、[[Context Layer]]、[[Company Brain]]、[[Compounding Learning Loop]]、[[GitHub for Context]]
 - 前置概念：[[Prompt]]
 
 ## 开放问题

@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-05-10
-updated: 2026-06-24
+updated: 2026-08-01
 ---
 
 # 知识库概览
@@ -9,9 +9,9 @@ updated: 2026-06-24
 > 本 Wiki 由 LLM 自动维护。
 
 ## 当前状态
-- 来源数量：17
-- 总页面数：164
-- 最近更新：2026-07-24
+- 来源数量：18
+- 总页面数：169
+- 最近更新：2026-08-01
 - 支持平台：小红书、抖音
 
 ## 核心发现
@@ -258,3 +258,23 @@ Skill 过多导致模型"抽风"——明明有对应 Skill 却不用，或者�
 - 最终对账：每天凌晨比对缓存和数据库数据，修复不一致记录
 
 **核心分水岭**：普通后端背个先更新库再删缓存，出问题只会加过期时间；大厂后端能随手设计一套基于异步兜底加最终对账的一致性体系。
+
+### 生产级Agent：缺的不是Prompt，是Context
+> 模型智能过去十年增长1000倍，但仅1/5的AI Use Case进入Production。问题不在模型不够聪明，而在Agent能否获得正确、及时、可执行的Context。
+
+**核心公式：Performance = Intelligence × Context**
+
+Agent绩效是模型智能和业务上下文的乘积。IQ只解释10%的工作绩效差异——人类世界如此，Agent世界亦然。
+
+**四个关键概念**：
+
+| 概念 | 核心含义 |
+|------|----------|
+| [[Context Layer]] | 将企业知识转化为AI可用Context的系统层，持续挖掘、归一化、检索 |
+| [[Company Brain]] | 可复用的企业级知识中枢，让Agent跨任务保持一致性 |
+| [[GitHub for Context]] | Context需要像代码一样进行版本控制、依赖管理、质量管理 |
+| [[Compounding Learning Loop]] | Agent Trace回流后持续修正Skills与Context的闭环 |
+
+**Context Layer的五步工作流**：持续挖掘企业系统知识 → 沉淀到Company Brain → 在Skills生命周期中利用 → 通过MCP/SQL/Vector Retrieval检索 → Trace回流构建学习闭环
+
+**核心洞察**：Context管理的工程化是生产级Agent的真正瓶颈。不是让模型更聪明，而是让Agent像人类梦之队一样拥有共享语言、Playbook、决策Norms和共享记忆。

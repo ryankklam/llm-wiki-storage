@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-08-01] ingest | 生产级Agent 缺的不是Prompt，Context 📕小红书
+
+- **来源**：http://xhslink.cn/o/5oZCCwme72W
+- **平台**：小红书
+- **新增页面**：2026-08-01-生产级Agent缺的不是PromptContext, Context Layer, Company Brain, Compounding Learning Loop, GitHub for Context
+- **更新页面**：index, overview, log, Context工程
+- **影响范围**：9 个页面
+
+---
+
 ## [2026-07-24] ingest | Agent成本优化：如何让同样的任务少花钱 📕小红书
 
 - **来源**：http://xhslink.cn/o/9THT7MmOXTr
