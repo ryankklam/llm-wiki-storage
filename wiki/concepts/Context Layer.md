@@ -1,8 +1,8 @@
 ---
 type: concept
 created: 2026-08-01
-updated: 2026-08-01
-sources: [2026-08-01-生产级Agent缺的不是PromptContext]
+updated: 2026-08-06
+sources: [2026-08-01-生产级Agent缺的不是PromptContext, 2026-08-06-我现在给agent补上下文只做这四层]
 ---
 
 # Context Layer
@@ -50,9 +50,20 @@ Context Layer 的核心理念是 **"GitHub for Context"**——Context需要像�
 - 56%的CEO表示AI尚未带来财务收益
 - IQ只解释约10%的工作绩效差异
 
+## 实践落地：四层上下文架构
+
+Context Layer 的实践落地方法是 [[四层上下文架构]]——将上下文从静态到动态分为四层：
+
+1. **[[AGENTS.md]]（项目地图）**：精简后的项目导航，只回答三个问题
+2. **[[按需知识树]]**：会议纪要、历史决策、业务规则和排查经验，分层组织按需查询
+3. **[[任务现场]]**：每次任务开始时动态组装Issue、代码、口径、时间、环境、日志
+4. **[[长期记忆管理]]**：只留稳定的结论、决策、风险和验证结果
+
+核心实践原则：上下文不是给模型补充更多知识，而是给它当前决策所需要的真实事实。按需加载，不是按量加载。
+
 ## 关联
 
-- 相关概念：[[Company Brain]]、[[Compounding Learning Loop]]、[[GitHub for Context]]、[[Context工程]]
+- 相关概念：[[Company Brain]]、[[Compounding Learning Loop]]、[[GitHub for Context]]、[[Context工程]]、[[四层上下文架构]]、[[AGENTS.md]]、[[按需知识树]]、[[任务现场]]
 - 检索机制：[[MCP]]、[[Model Context Protocol]]、[[RAG]]
 - 前置概念：[[Context Window]]、[[AI Agent]]、[[LLM]]
-- 来源：[[2026-08-01-生产级Agent缺的不是PromptContext]]
+- 来源：[[2026-08-01-生产级Agent缺的不是PromptContext]]、[[2026-08-06-我现在给agent补上下文只做这四层]]

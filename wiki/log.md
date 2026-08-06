@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-08-06] ingest | 我现在给 agent 补上下文，只做这四层 📕小红书
+
+- **来源**：http://xhslink.cn/o/48MxeUGlc4Q
+- **平台**：小红书
+- **新增页面**：2026-08-06-我现在给agent补上下文只做这四层, 四层上下文架构, AGENTS.md, 按需知识树, 任务现场
+- **更新页面**：index, overview, log, Context Layer
+- **影响范围**：10 个页面
+
+---
+
 ## [2026-08-01] ingest | 生产级Agent 缺的不是Prompt，Context 📕小红书
 
 - **来源**：http://xhslink.cn/o/5oZCCwme72W
