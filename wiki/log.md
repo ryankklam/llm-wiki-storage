@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-10-03] ingest | 为什么我现在更倾向于把Skill改成半自动 📕小红书
+
+- **来源**：https://xhslink.cn/o/2xnDF6ReH3U
+- **平台**：小红书
+- **笔记ID**：6abe46b0000000001402de0c
+- **作者**：一启-AI
+- **时长**：9:23
+- **互动**：629赞 / 1417收藏 / 14评论 / 140分享
+- **字幕来源**：Whisper转录（前3分47秒，视频URL签名过期导致仅获取40%音频）+ 评论区 + 元数据
+- **注意**：yt-dlp返回"No video formats found"，但从HTML中提取到直链URL成功下载部分视频
+- **新增页面**：2026-10-03-为什么我现在更倾向于把Skill改成半自动, 人为Checkpoint, Skill半自动化, 误差累积效应
+- **更新页面**：index, overview, log
+- **影响范围**：8 个页面
+
+---
+
 ## [2026-10-03] ingest | 沙箱技术overview 📕小红书
 
 - **来源**：http://xhslink.cn/o/44rg6W61VQA
