@@ -1,5 +1,19 @@
 # Wiki Log
 
+## [2026-10-03] ingest | 沙箱技术overview 📕小红书
+
+- **来源**：http://xhslink.cn/o/44rg6W61VQA
+- **平台**：小红书
+- **笔记ID**：6abf662e000000000200e686
+- **作者**：chaos
+- **时长**：6:35
+- **字幕来源**：小红书官方中文字幕（zh-CN SRT）
+- **新增页面**：2026-10-03-沙箱技术overview, 沙箱技术, 爆炸半径, 容器隔离, gVisor, MicroVM, Seccomp, AI Agent沙箱
+- **更新页面**：index, overview, log
+- **影响范围**：11 个页面
+
+---
+
 ## [2026-08-08] ingest | 一只尺就能骗过你大脑实验-橡胶手错觉 📕小红书
 
 - **来源**：http://xhslink.cn/o/15BvXj3i2Gx
