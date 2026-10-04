@@ -1,5 +1,20 @@
 # Wiki Log
 
+## [2026-10-04] ingest | Agent记忆是下一代基建-Hindsight 📕小红书
+
+- **来源**：https://xhslink.cn/o/69vjMupDT81
+- **平台**：小红书
+- **笔记ID**：6abe627e000000001301b34d
+- **作者**：HarnessWorld
+- **时长**：6:11
+- **互动**：51赞 / 137收藏 / 0评论 / 26分享
+- **字幕来源**：Whisper small 模型转录（视频从HTML直链下载成功）
+- **新增页面**：2026-10-04-Agent记忆是下一代基建-Hindsight, Hindsight, 精制模型, 知识业
+- **更新页面**：index, overview, log
+- **影响范围**：8 个页面
+
+---
+
 ## [2026-10-03] ingest | 为什么我现在更倾向于把Skill改成半自动 📕小红书
 
 - **来源**：https://xhslink.cn/o/2xnDF6ReH3U
